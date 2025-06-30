@@ -306,21 +306,9 @@ PARAM_DEFINE_FLOAT(ESO_L12, -2.6582f); // Second column
 PARAM_DEFINE_FLOAT(ESO_L22, 50.1961f);
 PARAM_DEFINE_FLOAT(ESO_L32, 24.93792f);
 
-
-////////// Working but slow //////////
-// PARAM_DEFINE_FLOAT(ESO_L11, 0.0101f); // First column
-
-// PARAM_DEFINE_FLOAT(ESO_L21, 0.0079f);
-// PARAM_DEFINE_FLOAT(ESO_L31, 0.0032f);
-
-// PARAM_DEFINE_FLOAT(ESO_L12, 1.0026f); // Second column
-// PARAM_DEFINE_FLOAT(ESO_L22, 1.0999f);
-// PARAM_DEFINE_FLOAT(ESO_L32, 0.0999f);
-/////////////////////////////////////
-
 PARAM_DEFINE_FLOAT(ESO_IXX, 0.0216f); // Vehicle inertias
 PARAM_DEFINE_FLOAT(ESO_IYY, 0.0216f);
 PARAM_DEFINE_FLOAT(ESO_IZZ, 0.04f);
 PARAM_DEFINE_FLOAT(ESO_U_SCALE, 1.6762f); // un-normalize the torque input. Currently based on mg/(4 * hover throttle)
 // 1.67625036592
-// 6.812f without taking moment arm length into account
+
